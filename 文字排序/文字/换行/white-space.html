@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style>
+	
+</style>
+</head>
+<body>
+<!--
+一. 两个要素: 
+1. 空白:(1)保留 (2)合并:多个空格只会显示一个
+2. 换行:(1)超出宽度换不换行 (2)保不保留文本中的换行,遇到<br>都换行
+
+二. 属性具体的含义
+1.normal:空白和并，超出宽度换行
+2.pre:原样输出
+3.nowrap:空白合并，不换行
+4.pre-wrap:空白保留，换行
+5.pre-line:空白合拼，换行
+https://www.jianshu.com/p/8ddbe4016778
+-->
+<div id='app' >
+	<template id='temp'>
+	  <div>
+		  <img src="">
+		</div>
+	</template>
+</div>
+
+<script src="../modules/vue.js"></script>
+<script>
+
+let vm=new Vue({
+  el:"#app",
+	template:'#temp',
+	data(){
+	  return {}
+	},
+	computed:{
+	  
+	},
+	watch:{
+	
+	},
+	methods:{
+	  inputFn(e){
+		  console.log(e.data)
+		}
+	},
+	beforeMount(){
+	  //this.a=44
+	},
+	mounted(){
+	  //this.a=33
+	},
+	updated(){
+	  //console.log('updated')
+	}
+})
+</script>
+</body>
+</html>

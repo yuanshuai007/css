@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+.container{
+	display:flex;
+	flex-flow:row wrap;
+  align-content:flex-start;
+  width:500px;
+	height:500px;
+  border:1px solid #000;
+
+}
+.item{
+  width:120px;
+	height:50px;
+  border:1px solid #000;
+}
+
+</style>
+</head>
+<body>
+<!--
+***行的对齐方式  如果只有一行，那么跟align-items一样
+***所以有多行的时候，才操作这个属性 
+
+1.起点对齐  align-content:flex-start;
+2.终点对齐  align-content:flex-end;
+3.居中对齐  align-content:center;
+
+4.拉伸撑满整个侧轴  注意 元素设高度无效
+align-items:stretch;
+
+5.两边没有空白  align-content:space-between;
+6.两边的空白是里面空白的一半 align-content:space-around;
+7.两边的空白和里面的空白一样大 align-content:space-evenly;
+-->
+<div id="" class="container">
+	<div id="" class="item item1">
+		1
+	</div>
+	<div id="" class="item item2">
+		2
+	</div>
+	<div id="" class="item item3">
+		3
+	</div>
+	<div id="" class="item item3">
+		4
+	</div>
+	<div id="" class="item item3">
+		5
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+.container{
+	display:flex;
+	position:absolute;
+  width:500px;
+	height:500px;
+  border:1px solid #000;
+
+}
+.item{
+/*平分剩余空间  */
+/*  flex-grow:1;*/
+  width:50px;
+	height:50px;
+  border:1px solid #000;
+}
+</style>
+</head>
+<body>
+<!--
+***元素按比例（自己的grow值/所有元素的grow值）瓜分剩余空间，也就是说得有剩余空间才有作用
+默认值是0，表示不放大
+-->
+<div id="" class="container">
+	<div id="" class="item">
+		1
+	</div>
+</div>
+<div id="" class="container">
+	<div id="" class="item">
+		2
+	</div>
+</div>
+</body>
+</html>

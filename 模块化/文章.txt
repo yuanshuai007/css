@@ -1,0 +1,2 @@
+1.【CSS模块化】(2) BEM命名方法论——使用BEM-constructor构建CSS
+https://www.jianshu.com/p/900e26060c09?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation

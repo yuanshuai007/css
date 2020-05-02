@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<style type="text/css">
+.container{
+	display:flex;
+	flex-flow:row wrap;
+	align-items:flex-start;
+  width:500px;
+	height:500px;
+  border:1px solid #000;
+
+}
+.item{
+  width:120px;
+	height:50px;
+  border:1px solid #000;
+}
+.item1{
+  height:60px;
+	font-size:20px;
+	word-wrap:break-word;
+}
+.item2{
+  height:120px;
+	font-size:30px;
+}
+.item3{
+  height:180px;
+	font-size:40px;
+}
+</style>
+</head>
+<body>
+<!--
+***元素在侧轴的对齐方式
+***align-items和align-content的区别
+***1.align-items是将所有元素作为一个整体,
+***2.align-content是将一行作为一个元素
+***3.如果只有一行，那么这两个属性则相同
+
+1.起点对齐  align-items:flex-start;
+2.终点对齐  align-items:flex-end;
+3.居中对齐  align-items:center;
+4.以元素里面的字对齐  align-items:baseline;
+如果文字有多行,以第一行为标准
+
+5.拉伸撑满整个侧轴  注意 元素如果设高度，就不起作用了
+align-items:stretch;
+-->
+<div id="" class="container">
+	<div id="" class="item item1">
+		11111111111111111111111
+	</div>
+	<div id="" class="item item2">
+		2
+	</div>
+	<div id="" class="item item3">
+		3
+	</div>
+	<div id="" class="item item3">
+		4
+	</div>
+	<div id="" class="item item3">
+		5
+	</div>
+</div>
+</body>
+</html>
